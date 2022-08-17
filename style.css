@@ -1,0 +1,26 @@
+body{
+    background: #352f5b;
+}
+
+.container{
+      max-width: 400px;
+}
+ input[type=text],   /* gets the input outer focus */
+input[type=text]:focus{
+    color: #ffff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+span{
+    color: white;
+}
+.todos li{
+    background: #423a6f;
+}
+.delete{
+    cursor: pointer;
+} 
+.filtered {
+    display: none !important;
+}
